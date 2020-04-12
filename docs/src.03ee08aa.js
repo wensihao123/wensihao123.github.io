@@ -13,6 +13,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"react":"n8MK","object-assign":"J4Nk","scheduler":"MDSO"}],"NKHc":[function(require,module,exports) {
 "use strict";function _(){if("undefined"!=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__&&"function"==typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE){0;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(_)}catch(O){console.error(O)}}}_(),module.exports=require("./cjs/react-dom.production.min.js");
 },{"./cjs/react-dom.production.min.js":"i17t"}],"zo2T":[function(require,module,exports) {
-"use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react")),r=e(require("react-dom")),u=function(){return React.createElement("div",null,"fuck")};r.default.render(React.createElement(u,null),document.querySelector("root"));
+"use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("react")),r=e(require("react-dom")),u=function(){return t.default.createElement("div",null,"fuck")};r.default.render(t.default.createElement(u,null),document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc"}]},{},["zo2T"], null)
-//# sourceMappingURL=src.1e67be05.js.map
+//# sourceMappingURL=src.03ee08aa.js.map
